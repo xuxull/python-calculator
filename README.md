@@ -9,4 +9,6 @@ A simple Python calculator with basic operations.
 
 ## Features  
 - Addition  
-- Subtraction  
+- Subtraction
+- Multiplication
+- Division
