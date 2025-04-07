@@ -1,3 +1,4 @@
+while True: #loop added
 try:
     num1 = float(input("Please input the first number: "))  
     num2 = float(input("Please input the second number: "))
@@ -25,3 +26,9 @@ except ValueError:
     print("Error: Please enter valid numbers!")
 except Exception as e:  
     print("An error occurred:", e)
+    
+choice = input("Continue? (y/n): ").lower()
+    if choice != 'y':
+        break  
+
+print("Calculator closed.") 
