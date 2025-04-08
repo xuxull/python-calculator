@@ -19,6 +19,8 @@ try:
     elif op == '-':
         result = num1 - num2
         print("Result is:", result)
+    elif op == 'sqrt':
+        print("Result:", math.sqrt(num1)) #added sqrt
     else:
         print("Illegal symbol, please enter correctly!")
 
