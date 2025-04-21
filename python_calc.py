@@ -34,4 +34,5 @@ choice = input("Continue? (y/n): ").lower()
         break  
 print("good job!") 
 print("perchance") 
+print("ruby chaan haaai") 
 print("Calculator closed.") 
